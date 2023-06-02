@@ -42,10 +42,10 @@
 
         <div class="row">
 
-          <div class="col-lg-8">
+          <div class="col-lg-12">
             <h2 class="portfolio-title">Parallel Implementation of Marathi Text News Categorisation Using GPU</h2>
           </div>
-          <div class="col-lg-8 portfolio-info">
+          <div class="col-lg-12 portfolio-info">
             <h3>Project Information</h3>
             <ul>
               <li><strong>Category</strong>: Machine Learning</li>
@@ -53,8 +53,20 @@
               <li><strong>Research paper Link</strong>: <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-981-33-4859-2_36">Click here</a></li>
             </ul>
             <p>
-              The Parallel Implementation of Marathi News project focused on automating the categorization of Marathi news articles. I employed the K-NN machine learning classification algorithm and the TF-IDF term-weighting scheme to classify news into predefined categories, such as sports, economy, and entertainment. To handle the compute-intensive work, a parallel algorithm was implemented on the GPU Nvidia Tesla T4, enabling efficient processing of news articles in Marathi.
+              The "Parallel Implementation of Marathi News" project is a significant step forward in the field of automated news categorization, focusing primarily on Marathi news articles. The objective was to streamline and automate the sorting process, allowing users to easily navigate to their preferred news category. 
             </p>
+            <p>
+              Our approach relied on the K-Nearest Neighbors (K-NN) machine learning algorithm, a proven classification technique. The K-NN algorithm works by identifying the "nearest" data points in a dataset and using their categories to predict the category of a new data point. In our case, the algorithm looked at existing news articles to learn how to categorize new articles effectively.
+            </p>
+            <p>
+              Alongside K-NN, we also implemented the Term Frequency-Inverse Document Frequency (TF-IDF) term-weighting scheme. This statistical method is used in text mining to reflect how important a word is to a document in a collection or corpus. By weighing the frequency of words, TF-IDF made our classification model more accurate and precise.
+            </p>
+            <p>
+              To optimize the classification process for performance and speed, we deployed our system on a Graphics Processing Unit (GPU). Specifically, we used the Nvidia Tesla T4, a high-performance, power-efficient GPU ideal for machine learning workloads. The parallel processing capabilities of GPUs allowed us to handle compute-intensive tasks efficiently, improving the speed and performance of our news categorization system. 
+            </p>
+            <p>
+              This setup enabled the automated categorization of Marathi news articles into predefined categories like sports, economy, and entertainment. It represents a significant step forward in processing and understanding Marathi news content, ultimately helping users access their desired content more easily and efficiently.
+            </p>            
           </div>
         </div>
       </div>
